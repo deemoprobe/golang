@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "fmt" // 使用fmt包中的Println函数
 
-func main()  {
+func main() {
 	fmt.Println("Hello World!")
 }
