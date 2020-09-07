@@ -1,5 +1,6 @@
 package example
 
+// Go测试源码文件
 import (
 	"testing"
 )

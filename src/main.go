@@ -1,5 +1,6 @@
 package main
 
+// Go命令源码文件
 import (
 	"fmt"
 )
