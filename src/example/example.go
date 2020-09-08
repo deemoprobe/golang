@@ -1,10 +1,12 @@
+// Package example add and sub
 package example
 
-// Go库源码文件
-func add(a, b int) int {
+// Add a+b
+func Add(a int, b int) int {
 	return a + b
 }
 
-func sub(a, b int) int {
+// Sub a-b
+func Sub(a int, b int) int {
 	return a - b
 }
