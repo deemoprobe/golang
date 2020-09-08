@@ -1,4 +1,3 @@
-// sqrt_test.go
 package simplemath
 
 import "testing"

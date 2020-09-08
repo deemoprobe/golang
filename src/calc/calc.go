@@ -1,4 +1,3 @@
-// calc.go
 package main
 
 import "os"
@@ -6,7 +5,8 @@ import "fmt"
 import "simplemath"
 import "strconv"
 
-var Usage = func () {
+// Usage calc
+var Usage = func() {
 	fmt.Println("Usage: calc command [arg] ... ")
 	fmt.Println("\nThe command are:\n\tadd\tAddtion of two values.\n\tsqrt\tSquare root of a non-negative value.")
 }
@@ -37,7 +37,7 @@ func main()  {
 			fmt.Println("Usage: calc aqrt <int>")
 			return
 		}
-		v, err := strconv.Atoi(arg[1])
+		v, err := strconv.Atoi(args[1])
 		if err != nil {
 			fmt.Println("Usage: calc sqrt <int>")
 			return

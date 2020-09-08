@@ -1,4 +1,3 @@
-// add.go
 package simplemath
 
 func Add(a int, b int) int {
