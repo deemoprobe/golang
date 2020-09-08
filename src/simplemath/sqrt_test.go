@@ -1,3 +1,4 @@
+// Package simplemath calc
 package simplemath
 
 import "testing"

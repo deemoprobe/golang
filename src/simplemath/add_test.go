@@ -1,3 +1,4 @@
+// Packeage simplemath clac
 package simplemath
 
 import "testing"
