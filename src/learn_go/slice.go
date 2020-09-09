@@ -23,6 +23,14 @@ func main() {
 	// 遍历数组
 	for _, v := range mySlice {
 		fmt.Print(v, " ")
+	}	
+	
+	// 换行
+	fmt.Println()
+
+	// 如果需要查看数组角标
+	for i, v := range mySlice {
+		fmt.Println("mySlice[", i, "] =", v)
 	}
 
 	//fmt.Println()
