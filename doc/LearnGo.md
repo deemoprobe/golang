@@ -127,4 +127,17 @@ const (
 
 go内置以下基础类型
 
-* 布尔
+* 布尔(bool)
+* 整型(int8, byte, int16, int, uint, uintptr...)
+* 浮点型(float32, float64)
+* 复数(complex64, complex128)
+* 字符串(string)
+* 字符类型(rune)
+* 错误类型(error)
+* 指针(pointer)
+* 数组(array)
+* 切片(slice)
+* 字典(map)
+* 通道(chan)
+* 结构体(struct)
+* 接口(interface)
