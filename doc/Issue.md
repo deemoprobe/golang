@@ -72,3 +72,7 @@ func Sub(a int, b int) int {
 报错12:`should replace num += 1 with num++`,`should replace num -= 1 with num--`  
 分析:a+=1应该改成a++，a-=1应该改成a–  
 方案:同上
+
+报错13:`package mymath is not in GOROOT (c:\go\src\mymath)`  
+分析:关闭开加速下载go包时启用的go_module参数  
+方案:go env -w GO111MODULE=off
